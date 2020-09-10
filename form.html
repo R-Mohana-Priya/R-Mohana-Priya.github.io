@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Form</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Papyrus;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+body {
+	background-image: url(images/a.jpg);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style4 {
+	font-family: "Curlz MT";
+	font-size: 30px;
+}
+.style5 {
+	font-family: Papyrus;
+	font-size: 24px;
+}
+-->
+</style></head>
+
+<body>
+<table width="1000" border="0">
+  <tr>
+    <th scope="row"><div align="center"><span class="style4">COFFEE PRINCE <br/>
+    <span class="style5"> Payment Form</span></span></div></th>
+  </tr>
+</table>
+
+<table width="1000" border="0"><form>
+  <tr>
+    <th width="260" scope="row"><div align="left">User Name </div></th>
+    <td width="730"><input type="text" size="30" /></td>
+  </tr>
+  <tr>
+    <th scope="row"><div align="left">Password</div></th>
+    <td><input name="Input" type="password" size="30" maxlength="10" /></td>
+  </tr>
+  <tr>
+    <th height="71" valign="top" scope="row"><div align="left">Order </div></th>
+    <td><input name="" type="checkbox" value="" />Pizza<br />
+	<input name="" type="checkbox" value="" />Pasta<br /><input name="" type="checkbox" value="" />Noodles<br/>
+	<input name="" type="checkbox" value="" />Hamburger<br/></td>
+  </tr>
+  <tr>
+    <th scope="row"><div align="left">Payment </div></th>
+    <td><input name="pay" type="radio" value="" />Cash
+	<input name="pay" type="radio" value="" />
+	Online Pay	
+	<select name="Mode" size="1">
+      <option selected="selected">Google Pay</option>
+      <option>Pay TM</option>
+      <option>SBI Online</option>
+      <option>Credit Card</option>
+      <option>Paypal</option>
+    </select></td>
+  </tr></form>
+</table>
+<table width="1000" border="0">
+  <tr>
+    <th width="258" scope="row"><div align="left">Feedback</div></th>
+    <td width="732"><form id="form1" name="form1" method="post" action="">
+      <label>
+      <textarea name="textarea"></textarea>
+      </label>
+    </form>    </td>
+  </tr>
+  <tr>
+    <th scope="row"><div align="left">Uploads</div></th>
+    <td><form id="form2" name="form2" enctype="multipart/form-data" method="post" action="">
+      <label>
+        <input type="file" name="file" />
+        </label>
+    </form>    </td>
+  </tr>
+   <tr>
+    <th valign="top" scope="row"><div align="left">
+      <form id="form4" name="form4" method="post" action="">
+        <label>
+          Clear fields  
+          <input type="reset" name="Reset" value="Clear" />
+          </label>
+      </form>
+      </div></th>
+    <td><form id="form5" name="form5" method="post" action="">
+      <label>
+      Submit All 
+      <input type="submit" name="Submit2" value="Submit" />
+      </label>
+    </form>    </td>
+  </tr>
+  <tr>
+    <th valign="top" scope="row"><div align="left">
+      <p>Thank You : ) </p>
+      <p>Have a Great time : ) </p>
+      <p>- Coffee Price : ) </p>
+      <ul>
+        </ul>
+        </div></th>
+    <td><form id="form3" name="form3" method="post" action="">
+      <label></label>
+      <input type="image" name="imageField" src="images/e.png" />
+    </form>    </td>
+  </tr>
+ 
+</table>
+
+
+</body>
+</html>
+
